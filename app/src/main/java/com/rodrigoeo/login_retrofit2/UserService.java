@@ -7,7 +7,7 @@ import retrofit2.http.POST;
 public interface UserService {
 
     // @POST endpoint que se utiliza
-    @POST("")
+    @POST("MesaDeValidaciones/AutenticarUsuarioAppComercial_RS")
     Call<LoginResponse> userLogin(@Body LoginRequest loginRequest);
 
 }
